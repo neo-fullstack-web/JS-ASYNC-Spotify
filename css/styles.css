@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(239, 253, 238);
+}
+
+.main-container {
+    padding: 1rem;
+    flex: 1;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+
+}
+
+footer .col {
+    padding: 1.5rem
+}
