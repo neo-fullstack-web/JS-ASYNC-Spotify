@@ -2,12 +2,17 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: rgb(239, 253, 238);
+    background-color: #0c6106;
 }
-
+a {
+    color: #1fd013;
+}
+a:hover {
+    color: #15910c;
+}
 .main-container {
     padding: 1rem;
-    flex: 1;
+    margin: 2rem auto;
 }
 
 footer {
